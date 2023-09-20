@@ -1,0 +1,57 @@
+%MLP:
+%Indicadores de teste:
+%EQM:   0.0035008301493692595
+%EQMN1: 0.026400287697502828
+%EQMN2: 0.4046641902127767
+%KstestResult(statistic=0.054, pvalue=0.4599232291065006, statistic_location=0.30031859525297244, statistic_sign=1)
+
+%LSTM:
+%DADOS DE TREINO
+%Indicadores de teste:
+%EQM:   0.0006313398614863537
+%EQMN1: 0.0047610290322551915
+%EQMN2: 0.0729771576731455
+%KstestResult(statistic=0.05, pvalue=0.5600220048872044, statistic_location=1.2324743270874023, statistic_sign=-1)
+
+%GRU:
+%DADOS DE TREINO
+%Indicadores de teste:
+%EQM:   0.0003099644894785179
+%EQMN1: 0.0023374889237962057
+%EQMN2: 0.03582908161144009
+%KstestResult(statistic=0.026, pvalue=0.9959527565364388, statistic_location=0.7630837559700012, statistic_sign=-1)
+
+%MLP data table in LATEX
+\begin{table}[H]
+\centering
+\caption{Resultados da MLP para os dados de treino.}
+\label{tab:mlp_train}
+\begin{tabular}{@{}cccc@{}}
+\toprule
+\textbf{EQM} & \textbf{EQMN1} & \textbf{EQMN2} & \textbf{pvalue} & \\ \midrule
+& 0.00350  & 0.02640    & 0.40466  &  0.45992 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+%LSTM data table in LATEX
+\begin{table}[H]
+\centering
+\caption{Resultados da LSTM para os dados de treino.}
+\label{tab:lstm_train}
+\begin{tabular}{@{}cccc@{}}
+\toprule
+\textbf{EQM} & \textbf{EQMN1} & \textbf{EQMN2} & \textbf{pvalue} & \\ \midrule
+0.000631339  & 0.004761029    & 0.072977157 &  0.56002   \\ \bottomrule
+\end{tabular}
+
+%GRU data table in LATEX
+\begin{table}[H]
+\centering
+\caption{Resultados da GRU para os dados de treino.}
+\label{tab:gru_train}
+\begin{tabular}{@{}cccc@{}}
+\toprule
+\textbf{EQM} & \textbf{EQMN1} & \textbf{EQMN2} & \textbf{pvalue} & \\ \midrule
+0.000309964  & 0.002337488    & 0.035829081  & 0.99595  \\ \bottomrule
+\end{tabular}
+\end{table}

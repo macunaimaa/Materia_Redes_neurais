@@ -1,0 +1,45 @@
+Forma prevendo todos
+    MLP:
+    DADOS DE TREINO
+    EQM:   0.13884024322032928
+    EQMN1: 1.0470151663856995
+    EQMN2: 1.0031178503283271
+    KstestResult(statistic=0.036, pvalue=0.9026912216773312, statistic_location=1.0587104558944702, statistic_sign=-1)
+
+    LSTM:
+    DADOS DE TREINO
+    EQM:   0.19424618780612946
+    EQMN1: 1.4648397318267108
+    EQMN2: 1.0392982932826522
+    KstestResult(statistic=0.04, pvalue=0.8191511303355717, statistic_location=1.0656375885009766, statistic_sign=-1)
+
+    GRU:
+    DADOS DE TREINO
+
+Forma prevendo apenas um:
+    MLP:
+    Indicadores de teste:
+    EQM:   0.0035008301493692595
+    EQMN1: 0.026400287697502828
+    EQMN2: 0.4046641902127767
+    KstestResult(statistic=0.054, pvalue=0.4599232291065006, statistic_location=0.30031859525297244, statistic_sign=1)
+
+    LSTM:
+    DADOS DE TREINO
+    Indicadores de teste:
+    EQM:   0.0006313398614863537
+    EQMN1: 0.0047610290322551915
+    EQMN2: 0.0729771576731455
+    KstestResult(statistic=0.05, pvalue=0.5600220048872044, statistic_location=1.2324743270874023, statistic_sign=-1)
+
+    GRU:
+    DADOS DE TREINO
+    Indicadores de teste:
+    EQM:   0.0003099644894785179
+    EQMN1: 0.0023374889237962057
+    EQMN2: 0.03582908161144009
+    KstestResult(statistic=0.026, pvalue=0.9959527565364388, statistic_location=0.7630837559700012, statistic_sign=-1)
+
+
+
+
